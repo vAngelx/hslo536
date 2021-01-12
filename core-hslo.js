@@ -6056,7 +6056,7 @@ var angel_19323 = ['cellsTab2', 'cellsTab3', 'cellsIDTab1', 'cellsIDTab2', 'myCe
 			}
 		}, {
 			'key': 'getColor',
-			'value': (e, t) => 'rgb(' + (0 | e.R * t) + ',' + (0 | e.G * t) + ',' + (0 | e.B * t) + ')'
+			'value': (_2668636, _5894408) => 'rgb(' + (0 | _2668636.R * _5894408) + ',' + (0 | _2668636.G * _5894408) + ',' + (0 | _2668636.B * _5894408) + ')'
 		}, {
 			'key': 'getMaouImg',
 			'value'() {
