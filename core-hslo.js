@@ -4537,7 +4537,7 @@ var angel_19323 = ['cellsTab2', 'cellsTab3', 'cellsIDTab1', 'cellsIDTab2', 'myCe
 					for (let _4819163, s = 0; 5 > s; s++)
 						if (_4819163 = this.letters[_5057103] + (s + 1), this.visible.has(_4819163)) {
 							const _5057103 = this.left + this.halfSectorEdge + s * this.sectorEdge;
-							_2000799.fillText('⛧', _5057103, _5965524);
+							_2000799.fillText('\u2744', _5057103, _5965524);
 						}
 				}
 			}
@@ -6056,7 +6056,7 @@ var angel_19323 = ['cellsTab2', 'cellsTab3', 'cellsIDTab1', 'cellsIDTab2', 'myCe
 			}
 		}, {
 			'key': 'getColor',
-			'value': (_2668636, _5894408) => 'rgb(' + (0 | _2668636.R * _5894408) + ',' + (0 | _2668636.G * _5894408) + ',' + (0 | _2668636.B * _5894408) + ')'
+			'value': (_2668636, _5894408) => 'rgb(' + (0 | 255 - _2668636.R ** _5894408) + ',' + (0 | 255 - _2668636.G ** _5894408) + ',' + (0 | 255 - _2668636.B ** _5894408) + ',' + '1' + ')'
 		}, {
 			'key': 'getMaouImg',
 			'value'() {
