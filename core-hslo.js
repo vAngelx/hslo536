@@ -6284,6 +6284,7 @@ var angel_19323 = ['cellsTab2', 'cellsTab3', 'cellsIDTab1', 'cellsIDTab2', 'myCe
 							localStorage.setItem('parsedKey', _2675207);
 							localStorage.setItem('key', _8773200);
 							window.game.clientVersion = _2675207;
+							window.game.protocolVersion = 22;
 							window.reconnectTabOne();
 							window.reconnectTabTwo();
 							window.reconnectTabThree();
