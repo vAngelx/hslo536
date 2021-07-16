@@ -6276,7 +6276,7 @@ var angel_19323 = ['cellsTab2', 'cellsTab3', 'cellsIDTab1', 'cellsIDTab2', 'myCe
 					let _3314072 = _5545094.match(/versionString="(\d+\.\d+\.\d+)"/);
 					if (_3314072) {
 						let _8773200 = _3314072[1];
-						let _2675207 = 30601;
+						let _2675207 = 10000 * parseInt(_8773200.split('.')[0]) + 100 * parseInt(_8773200.split('.')[1]) + parseInt(_8773200.split('.')[2]);
 						console.log('Updated Client Version: ' + _2675207 + ' ' + _8773200);
 						if (le.versionInt != _2675207 || le.versionString != _8773200) {
 							le.setKey(_2675207, _8773200);
