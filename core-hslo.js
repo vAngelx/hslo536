@@ -5202,8 +5202,8 @@ var angel_19323 = ['cellsTab2', 'cellsTab3', 'cellsIDTab1', 'cellsIDTab2', 'myCe
 		}, {
 			'key': 'handshake1',  
 			'value'(e) {
-				const t = this.createView(5);
-				t.setUint8(0, 254, true), t.setUint16(1, 22, true), q.send(t.buffer, e);
+				const _3703912 = this.createView(5);
+				_3703912.setUint8(0, 254, true), _3703912.setUint16(1, 22, true), q.send(_3703912.buffer, e);
 			}
 		}, {
 			'key': 'handshake2',
